@@ -1,0 +1,562 @@
+[
+    {
+        "id": "char_1",
+        "name": "Character 1",
+        "health": 89,
+        "attack": 19,
+        "defense": 8,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_1_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 6
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_1_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 13
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_2",
+        "name": "Character 2",
+        "health": 92,
+        "attack": 11,
+        "defense": 6,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_2_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 5
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_2_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 12
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_3",
+        "name": "Character 3",
+        "health": 57,
+        "attack": 11,
+        "defense": 9,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_3_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 10
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_3_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 15
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_4",
+        "name": "Character 4",
+        "health": 74,
+        "attack": 16,
+        "defense": 12,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_4_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 15
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_4_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 5
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_5",
+        "name": "Character 5",
+        "health": 99,
+        "attack": 15,
+        "defense": 7,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_5_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 14
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_5_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 8
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_6",
+        "name": "Character 6",
+        "health": 65,
+        "attack": 10,
+        "defense": 15,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_6_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 14
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_6_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 7
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_7",
+        "name": "Character 7",
+        "health": 71,
+        "attack": 19,
+        "defense": 12,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_7_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 10
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_7_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 6
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_8",
+        "name": "Character 8",
+        "health": 75,
+        "attack": 17,
+        "defense": 6,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_8_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 15
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_8_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 12
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_9",
+        "name": "Character 9",
+        "health": 51,
+        "attack": 18,
+        "defense": 6,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_9_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 9
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_9_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 7
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_10",
+        "name": "Character 10",
+        "health": 91,
+        "attack": 15,
+        "defense": 10,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_10_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 9
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_10_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 5
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_11",
+        "name": "Character 11",
+        "health": 84,
+        "attack": 19,
+        "defense": 10,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_11_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 12
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_11_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 12
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_12",
+        "name": "Character 12",
+        "health": 60,
+        "attack": 19,
+        "defense": 12,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_12_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 5
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_12_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 15
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_13",
+        "name": "Character 13",
+        "health": 68,
+        "attack": 18,
+        "defense": 10,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_13_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 15
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_13_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 6
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_14",
+        "name": "Character 14",
+        "health": 88,
+        "attack": 18,
+        "defense": 9,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_14_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 14
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_14_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 15
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_15",
+        "name": "Character 15",
+        "health": 53,
+        "attack": 11,
+        "defense": 9,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_15_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 12
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_15_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 8
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_16",
+        "name": "Character 16",
+        "health": 95,
+        "attack": 14,
+        "defense": 12,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_16_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 12
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_16_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 15
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_17",
+        "name": "Character 17",
+        "health": 75,
+        "attack": 15,
+        "defense": 14,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_17_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 12
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_17_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 12
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_18",
+        "name": "Character 18",
+        "health": 66,
+        "attack": 15,
+        "defense": 5,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_18_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 9
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_18_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 13
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_19",
+        "name": "Character 19",
+        "health": 92,
+        "attack": 15,
+        "defense": 14,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_19_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 14
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_19_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 7
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    },
+    {
+        "id": "char_20",
+        "name": "Character 20",
+        "health": 77,
+        "attack": 11,
+        "defense": 10,
+        "imageUrl": "url_to_character_image",
+        "equipment": [
+            {
+                "id": "eq_20_1",
+                "name": "Sword",
+                "type": "weapon",
+                "statBoost": {
+                    "attack": 9
+                },
+                "imageUrl": "url_to_sword_image"
+            },
+            {
+                "id": "eq_20_2",
+                "name": "Shield",
+                "type": "armor",
+                "statBoost": {
+                    "defense": 11
+                },
+                "imageUrl": "url_to_shield_image"
+            }
+        ]
+    }
+]

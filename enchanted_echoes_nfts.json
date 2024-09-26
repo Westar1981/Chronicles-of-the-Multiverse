@@ -1,0 +1,47 @@
+[
+    {
+        "id": "char_1",
+        "name": "The Whispering Woods Sentinel",
+        "health": 100,
+        "attack": 20,
+        "defense": 30,
+        "imageUrl": "url_to_woods_sentinel_image",
+        "description": "A majestic, ancient tree spirit emerges from the heart of an enchanted forest, its bark etched with glowing runes and its branches adorned with shimmering crystals. Its eyes, deep pools of emerald light, hold the wisdom of countless ages."
+    },
+    {
+        "id": "char_2",
+        "name": "The Celestial Dragonrider",
+        "health": 120,
+        "attack": 40,
+        "defense": 20,
+        "imageUrl": "url_to_dragonrider_image",
+        "description": "A valiant warrior soars through the heavens atop a magnificent dragon, its scales gleaming like polished metal and its breath a swirling vortex of fire and lightning. The rider's armor, forged in the heart of a dying star, reflects the brilliance of the cosmos."
+    },
+    {
+        "id": "char_3",
+        "name": "The Mystical Spellweaver",
+        "health": 80,
+        "attack": 50,
+        "defense": 10,
+        "imageUrl": "url_to_spellweaver_image",
+        "description": "A graceful sorceress, cloaked in shimmering silks and adorned with intricate jewelry, weaves a tapestry of arcane energy with her delicate hands. The air crackles with magical power as her incantations summon ethereal creatures and bend the fabric of reality."
+    },
+    {
+        "id": "char_4",
+        "name": "The Fearless Treasure Hunter",
+        "health": 90,
+        "attack": 30,
+        "defense": 20,
+        "imageUrl": "url_to_treasure_hunter_image",
+        "description": "A rugged adventurer, weathered by countless expeditions, emerges from the depths of a forgotten tomb, clutching a priceless artifact. His eyes, alight with triumph, tell tales of daring escapes and battles against ancient guardians."
+    },
+    {
+        "id": "char_5",
+        "name": "The Ethereal Guardian Spirit",
+        "health": 110,
+        "attack": 25,
+        "defense": 35,
+        "imageUrl": "url_to_guardian_spirit_image",
+        "description": "A translucent, spectral figure hovers protectively over a sacred grove, its form shimmering with celestial light. Its outstretched arms, adorned with flowing ribbons of energy, ward off malevolent forces and preserve the harmony of the natural world."
+    }
+]

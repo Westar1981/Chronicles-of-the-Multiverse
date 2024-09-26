@@ -13,6 +13,12 @@ import com.example.chroniclesofthemultiverse.CrossChainBridge;
 import com.example.chroniclesofthemultiverse.OnboardingSystem;
 import com.example.chroniclesofthemultiverse.NarrativeSystem;
 import com.example.chroniclesofthemultiverse.MonetizationSystem;
+import org.json.JSONArray;
+import org.json.JSONObject;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -194,5 +200,41 @@ public class MainActivity extends AppCompatActivity {
 
         TextView purchaseInfoTextView = findViewById(R.id.purchase_info);
         purchaseInfoTextView.setText("Purchase: " + monetizationSystem.getInAppPurchaseById("1")?.name);
+
+        // Load initial NFTs
+        List<CharacterNFT> initialNFTs = loadInitialNFTs();
+        for (CharacterNFT nft : initialNFTs) {
+            // Add logic to integrate NFTs into the game
+            System.out.println("Loaded NFT: " + nft.name);
+        }
+    }
+
+    private List<CharacterNFT> loadInitialNFTs() {
+        List<CharacterNFT> nfts = new ArrayList<>();
+        try {
+            InputStream is = getAssets().open("enchanted_echoes_nfts.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            String json = new String(buffer, StandardCharsets.UTF_8);
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                CharacterNFT nft = new CharacterNFT(
+                    jsonObject.getString("id"),
+                    jsonObject.getString("name"),
+                    jsonObject.getInt("health"),
+                    jsonObject.getInt("attack"),
+                    jsonObject.getInt("defense"),
+                    jsonObject.getString("imageUrl"),
+                    jsonObject.getString("description")
+                );
+                nfts.add(nft);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return nfts;
     }
 }
