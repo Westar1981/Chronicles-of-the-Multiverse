@@ -6,7 +6,165 @@
     android:gravity="center">
 
     <TextView
+        android:id="@+id/combat_log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello, Chronicles of the Multiverse!" />
+    android:text="Combat log will be displayed here"
+    android:padding="16dp"
+    android:textSize="16sp"
+    android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/crafted_equipment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crafted Equipment will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/upgraded_character_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgraded Character Stats will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/staking_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Staking status will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/listing_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listing status will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/token_balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Token Balance will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/join_hub_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join hub status will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/avatar_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avatar info will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/access_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Access status will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/vote_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote status will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/content_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Content info will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/join_event_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join event status will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/transfer_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NFT Transfer info will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/event_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event info will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/tutorial_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorial info will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/story_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Story info will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/purchase_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchase info will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:id="@+id/exploration_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exploration result will be displayed here"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+
 </LinearLayout>
